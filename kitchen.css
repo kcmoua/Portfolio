@@ -1,0 +1,103 @@
+#kitchen{
+	background-color: lightgreen;
+	font-family: 'Baloo 2', cursive;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav ul:hover{
+  transform: rotate(359deg);
+}
+
+.wikiLink{
+	font-family: 'Liu Jian Mao Cao', cursive;
+	font-size: 30px;
+  color: red;
+  text-shadow: 1px 3px 10px white;
+}
+
+.wikiLink:hover{
+  color:yellow;
+  text-shadow: 1px 3px 10px black;
+}
+
+.shadow-div{
+	box-shadow: 8px 8px 10px slategray;
+}
+
+.big li:hover{
+  transform: scale(1.01);
+}
+
+/* animations */
+
+.tracking-in-expand-fwd {
+	-webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.scale-in-center {
+	-webkit-animation: scale-in-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+            transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+            transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+/* end of animations */

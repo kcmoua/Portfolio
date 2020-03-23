@@ -1,0 +1,41 @@
+.backgroundPic {
+  background-image: url("https://previews.123rf.com/images/nik82/nik821612/nik82161200033/68504686-tennis-ball-background-pattern-vector-eps-10.jpg");
+}
+
+.fontFamily {
+  font-family: Georgia;
+}
+
+.col-sm-3 {
+  border: 1px #ccc solid;
+  background-color: limegreen;
+  text-align: center;
+}
+
+.col-sm-4 {
+    border: 1px #ccc solid;
+    background-color: limegreen;
+    text-align: center;
+}
+
+.col-sm-6 {
+    border: 1px #ccc solid;
+    background-color: limegreen;
+    text-align: center;
+}
+
+.col-sm-6-pic {
+  background-color: none;
+}
+
+.col-sm-9 {
+    border: 1px #ccc solid;
+    background-color: limegreen;
+    text-align: center;
+}
+
+.col-sm-12 {
+  border: 1px #ccc solid;
+  background-color: limegreen;
+  text-align: center;
+}
